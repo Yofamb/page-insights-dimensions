@@ -1,0 +1,16 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Viewport Width</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+	<script>
+    var width = window.innerWidth.toString();
+    var height = window.innerHeight.toString();
+    
+		document.querySelector("body").appendChild(document.createTextNode(width + "x" + height));
+	</script>
+</body>
+</html>
